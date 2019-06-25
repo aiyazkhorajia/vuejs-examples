@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet"
+      href="https://unpkg.com/bulma/css/bulma.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="field">
+        <label class="label">Kilometre</label>
+        <input v-model="km"
+                class="input"
+                type="number"
+                placeholder="Type a length in Kilometre!">
+      </div>
+      
+      <div class="field">
+        <label class="label">Metre</label>
+        <input v-model="m"
+                class="input"
+                type="number"
+                placeholder="Type a length in Metre!">
+      </div>
+    </div>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
